@@ -1,0 +1,1 @@
+<view class="goods"><goods-list vue-id="576f0adc-1" goods="{{goods}}" bind:__l="__l"></goods-list><block wx:if="{{flag}}"><view class="bottom-flag"><text class="text">我是有底线的</text></view></block></view>

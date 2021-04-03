@@ -1,0 +1,1 @@
+<view class="news-detail"><view class="title">{{''+detail.title+''}}</view><view class="info"><block wx:if="{{detail.newsTime}}"><text>{{"发布时间："+$root.g0}}</text></block><text>{{"浏览："+detail.watchCount+"次"}}</text></view><view class="content"><block wx:if="{{detail.content}}"><rich-text nodes="{{detail.content}}"></rich-text></block></view></view>
